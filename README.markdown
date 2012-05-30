@@ -13,6 +13,13 @@ Feel free to fork and submit back pull requests.
 * It could still use some cleanup (I extracted it from my site so some things may not be applicable everywhere)
 * Bootstrap uses Less and Octopress uses Sass, so for right now I've just included plain CSS from bootstrap to make them compatible.  This works fine but ideally down the road it could use a forked Sass version of bootstrap or modify Octopress to include Less support.  One caveat is that it should ideally still work with the free bootstrap themes such those at [bootswatch.com](http://bootswatch.com/) which are in Less.  So maybe there is some happy combination where these will all work together?  In the mean time this theme just uses plain old css.
 
+### Changed from original 
+
+* Added missing twitter css code (custom.css) to reflect the original blog
+* Changed one line in twitter.js for it to view tweets correctly
+* Added some comments in navigation.html about what needs to be changed for the rss feed to work correctly
+* ...
+
 ### License
 (The MIT License)
 
